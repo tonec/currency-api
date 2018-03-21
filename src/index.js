@@ -65,15 +65,10 @@ if (process.env.APIPORT) {
       console.error(err)
     }
     console.info('----\n==> 🌎  API is running on port %s', process.env.APIPORT)
-    console.info(
-      '==> 💻  Send requests to http://localhost:%s',
-      process.env.APIPORT
-    )
+    console.info('==> 💻  Send requests to http://localhost:%s', process.env.APIPORT)
   })
 } else {
-  console.error(
-    '==>     ERROR: No APIPORT environment variable has been specified'
-  )
+  console.error('==>     ERROR: No APIPORT environment variable has been specified')
 }
 
 export default app
