@@ -5,7 +5,7 @@ export default {
   query: (req, res, next) => {
     Rate.find({})
       .then(rates => {
-        res.json(format('rates', rates))
+        res.json(format('quotes', rates))
       })
       .catch(next)
   }

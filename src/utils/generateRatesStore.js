@@ -17,7 +17,7 @@ export default quotes => {
         rounding: detail.rounding,
         currency_code: detail.code,
         country_code: detail.iso,
-        value: quotes[quote]
+        quote: quotes[quote]
       })
 
       rates.push(rate)

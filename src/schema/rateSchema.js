@@ -33,7 +33,7 @@ const rateSchema = mongoose.Schema({
     type: Number,
     required: true
   },
-  value: {
+  quote: {
     type: Number,
     required: true
   },

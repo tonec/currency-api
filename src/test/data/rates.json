@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "rates": [
+    "quotes": [
         {
             "id": "5ab3809e25af0e3ffeadd53a",
             "name": "United Arab Emirates Dirham",
@@ -11,7 +11,7 @@
             "rounding": 0,
             "currency_code": "AED",
             "country_code": "UAE",
-            "value": 3.672503
+            "quote": 3.672503
         },
         {
             "id": "5ab3809e25af0e3ffeadd53b",
@@ -23,7 +23,7 @@
             "rounding": 0,
             "currency_code": "AFN",
             "country_code": "AF",
-            "value": 69.063776
+            "quote": 69.063776
         },
         {
             "id": "5ab3809e25af0e3ffeadd53c",
@@ -35,7 +35,7 @@
             "rounding": 0,
             "currency_code": "ALL",
             "country_code": "AL",
-            "value": 104.699997
+            "quote": 104.699997
         },
         {
             "id": "5ab3809e25af0e3ffeadd53d",
@@ -47,7 +47,7 @@
             "rounding": 0,
             "currency_code": "AMD",
             "country_code": "AM",
-            "value": 479.760011
+            "quote": 479.760011
         }
     ]
 }
