@@ -1,4 +1,4 @@
-import Rate from '../models/rateModel'
+import { Rate } from '../models'
 import format from '../utils/format'
 
 export default {

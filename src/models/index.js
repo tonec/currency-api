@@ -1,1 +1,1 @@
-export { default as rateModel } from './rateModel'
+export { default as Rate } from './rateModel'

@@ -1264,10 +1264,6 @@ convert-source-map@^1.5.0:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.5.1.tgz#b8278097b9bc229365de5c62cf5fcaed8b5599e5"
 
-cookie@^0.1.2:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.1.5.tgz#6ab9948a4b1ae21952cd2588530a4722d4044d7c"
-
 cookiejar@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/cookiejar/-/cookiejar-2.1.1.tgz#41ad57b1b555951ec171412a81942b1e8200d34a"
@@ -3654,12 +3650,6 @@ resolve@^1.3.3, resolve@^1.5.0:
   dependencies:
     path-parse "^1.0.5"
 
-restify-cookies@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/restify-cookies/-/restify-cookies-0.2.2.tgz#789483151ed9ee943bb454550e0b87b4f9009ac1"
-  dependencies:
-    cookie "^0.1.2"
-
 restify-errors@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/restify-errors/-/restify-errors-5.0.0.tgz#668717e100683eec6ce0d515f89ff1dbec254a8d"
@@ -3669,12 +3659,6 @@ restify-errors@^5.0.0:
     verror "^1.8.1"
   optionalDependencies:
     safe-json-stringify "^1.0.3"
-
-restify-paginate@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/restify-paginate/-/restify-paginate-0.0.4.tgz#b4bfe6b78f6222513ead003dca9067e8c0468e99"
-  dependencies:
-    extend "^3.0.0"
 
 restify@^6.3.4:
   version "6.3.4"
